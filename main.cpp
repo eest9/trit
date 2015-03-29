@@ -42,7 +42,7 @@ int main()
           cout << endl;
           return 0;
         }
-        cout << "Eingabe eingültig" << endl;
+        cout << "Eingabe endgültig" << endl;
         return -1;
       }
     }while(byte!=0);
