@@ -43,8 +43,7 @@ int main()
           return 0;
         }
         cout << "Eingabe ungültig" << endl;
-        return -1;
       }
-    }while(byte!=0);
+    }while(1);
     return 0;
 }
