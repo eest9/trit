@@ -48,8 +48,6 @@ int main()
        }
        cout << endl;
        byte++;
-       cin.clear();
-       cin.ignore(numeric_limits<streamsize>::max());
       }
     }while(1);
     return 0;
