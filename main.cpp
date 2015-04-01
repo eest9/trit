@@ -13,14 +13,13 @@ int main()
       cout << "Eingabe:     ";
       cin >> byte;
       if(cin.fail()) {
-
        if(cin.eof()) {
         cout << endl;
         return 0;
        }
        cout << "Eingabe ungültig" << endl;
        cin.clear();
-       cin.ignore(numeric_limits<streamsize>::max());
+       cin.ignore(numeric_limits<streamsize>::max(),'\n');
       }else{
        cout << "Dezimal:     " << byte << endl;
        var_to_tryte(byte, tryte);
