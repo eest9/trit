@@ -51,7 +51,7 @@ int main()
         cout << "Eingabe ungültig" << endl;
       }
      cin.clear();
-     cin.ignore(numeric_limits<streamsize>)
+     cin.ignore(numeric_limits<streamsize>);
     }while(1);
     return 0;
 }
