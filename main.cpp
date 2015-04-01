@@ -1,5 +1,6 @@
 #include <iostream>
 #include "ternary.h"
+#include <limits>
 
 using namespace std;
 
@@ -49,6 +50,8 @@ int main()
         }
         cout << "Eingabe ungültig" << endl;
       }
+     cin.clear();
+     cin.ignore(numeric_limits<streamsize>)
     }while(1);
     return 0;
 }
