@@ -7,6 +7,11 @@ int main()
 {
     short byte=0;
     short tryte[11];
+  
+    string ign;
+    cin.clear();
+    getline(cin,ign);
+  
     do{
       cout << "Eingabe:     ";
       cin >> byte;
